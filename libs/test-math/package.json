@@ -1,4 +1,9 @@
 {
   "name": "@org/test-math",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "bundledDependencies": [
+    "@org/adder",
+    "@org/multiplier",
+    "@org/power-raiser"
+  ]
 }
