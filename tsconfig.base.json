@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@org/adder": ["libs/adder/src/index.ts"],
+      "@org/multiplier": ["libs/multiplier/src/index.ts"],
+      "@org/power-raiser": ["libs/power-raiser/src/index.ts"],
+      "@org/test-math": ["libs/test-math/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
